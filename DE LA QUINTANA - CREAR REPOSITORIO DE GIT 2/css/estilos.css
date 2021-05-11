@@ -1,0 +1,238 @@
+body {
+
+	font-family: 'Roboto';
+	color: #333333;
+	background-image: url('../imagenes/Fondo-komori.jpg');
+}
+
+p {
+
+	font-size: 17px;
+	text-align: justify;
+}
+
+h1 {
+
+	text-align: center;
+  margin: 25px;
+}
+
+h2 {
+    text-align: center;
+    margin: -30px 0px 8px; 
+}
+
+h3 {
+
+  text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+  text-decoration:none; 
+}
+
+form {
+    margin: 0px 30px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0px;
+}
+
+input[type=button], input[type=submit] {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #da386c;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 6px 0px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+input[type=submit]:hover {
+  background-color: #c62b5d;
+}
+
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0px;
+  height: 200px;
+  font-family: 'Roboto';
+
+}
+
+select {
+     font-size: 14px;
+     height: 30px;
+     padding: 5px;
+     width: 100%;
+ }
+
+.contenedor {
+  background: #fff;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
+.menu {
+  display: flex;
+  background-color: #da386c;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.menu__items {
+  background-color: transparent;
+  width: 200px;
+  margin: 5px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 17px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.menu__items:hover {
+    transform: scale(1.2);
+}
+
+.menu__link {
+  color: white;
+  text-decoration:none; 
+}
+
+.galeria {
+  column-count: 2;
+  column-gap: 20px;
+  text-align: center;
+  margin: 0px 30px;
+}
+
+.about_me {
+  column-count: 2;
+  column-gap: 30px;
+  text-align: center;
+  margin: 0px 30px;
+}
+
+.flex-container {
+  display: flex;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.caja-footer {
+  display: flex;
+  background-color: #4b2c64;
+  color: #ffe5bc;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.items-footer {
+  background-color: transparent;
+  width: 90px;
+  margin: 3px;
+  text-align: left;
+  line-height: 20px;
+  font-size: 17px;
+}
+
+.galeria_shop {
+  column-count: 3;
+  column-gap: 20px;
+  text-align: center;
+  margin: 0px 30px;
+}
+
+
+.shop {
+  display: flex;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.shop__contenedor {
+  display: flex;
+  background-color: transparent;
+  justify-content: center;
+  align-items: top;
+  flex-direction: row;
+}
+
+.shop__items {
+  background-color: transparent;
+  margin: 30px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 17px;
+}
+
+.shop__items  h1 {
+  text-align: left;
+  margin: 5px 0px;
+}
+
+.shop__items  h1 {
+  text-align: left;
+  margin: 5px 0px;
+}
+
+.proyecto__contenedor {
+  display: flex;
+  background-color: transparent;
+  justify-content: center;
+  align-items: top;
+  flex-direction: row;
+  margin: 3px 30px;
+}
+
+.proyecto__contenedor img {
+  transition: transform 0.2s ease-in-out;
+}
+
+.proyecto__contenedor img:hover {
+    transform: scale(1.5);
+}
+
+.proyecto__items {
+  background-color: transparent;
+  margin: 5px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 17px;
+}
+
+.proyecto__parrafos {
+  text-align: justify;
+  margin: 0px 30px;
+}
+
+.titulos {
+
+ text-align: center;
+ color: #333333;
+ margin: 25px;
+ font-size: 40px;
+ font-weight: 500;
+}
